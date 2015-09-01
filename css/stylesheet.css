@@ -47,11 +47,11 @@ html, body {
 #about {
 }
 
-#services {
+#hobbies {
   background-color: #306d9f;
   color: #ffffff;
 }
-#services .glyphicon {
+#hobbies .glyphicon {
   border: 2px solid #FFFFFF;
   border-radius: 50%;
   display: inline-block;
@@ -63,10 +63,10 @@ html, body {
   width: 140px;
 }
 
-#information {
+#skills {
   background: url(http://minionvilla.com/wp-content/uploads/2013/09/mainboard-circuit-wallpaper.jpg) no-repeat center center fixed; 
   display: table;
-  height: 800px;
+  height: 650px;
   position: relative;
   width: 100%;
   -webkit-background-size: cover;
@@ -74,21 +74,52 @@ html, body {
   -o-background-size: cover;
   background-size: cover;
 }
-#information .panel {
-  opacity: 0.85;
+#skills .panel {
+  opacity: 0.95;
 }
 
-#google_map {
-  height: 500px;
-}
 
 footer {
-  padding: 20px 0;
+ /* padding: 10px 0;*/
+  background-color: #ECEBE9;
 }
-footer .glyphicon {
-  color: #333333;
-  font-size: 60px;
+
+
+
+@font-face {
+font-family: 'Glyphicons Halflings';
+src: url('http://netdna.bootstrapcdn.com/bootstrap/3.0.3/fonts/glyphicons-halflings-regular.eot');
+src: url('http://netdna.bootstrapcdn.com/bootstrap/3.0.3/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('http://netdna.bootstrapcdn.com/bootstrap/3.0.3/fonts/glyphicons-halflings-regular.woff') format('woff'), url('http://netdna.bootstrapcdn.com/bootstrap/3.0.3/fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('http://netdna.bootstrapcdn.com/bootstrap/3.0.3/fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
 }
-footer .glyphicon:hover {
-  color: #306d9f;
+
+.glyphicon {
+position: relative;
+top: 1px;
+display: inline-block;
+font-family: 'Glyphicons Halflings';
+-webkit-font-smoothing: antialiased;
+font-style: normal;
+font-weight: normal;
+line-height: 1;
+-moz-osx-font-smoothing: grayscale;
+}
+
+.glyphicon:empty {
+width: 1em;
+}
+
+glyphicon-tree-deciduous:before {
+content: "\e200";
+}
+
+.glyphicon-heart:before {
+content: "\e005";
+}
+
+.glyphicon-cutlery:before {
+content: "\e179";
+}
+
+.glyphicon-heart-empty:before {
+content: "\e143";
 }
