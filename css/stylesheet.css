@@ -1,8 +1,8 @@
-/*
-body{
-    background-color: #C6E2FF;
+/* sets font size for 'mobile' screens */
+@media only screen and (max-width: 400px) {
+
+   body { font-size: 1.1em; }
 }
-*/
 
 /* general styles */
 html, body {
@@ -42,6 +42,18 @@ html, body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+#home h1 {
+  font-family:Arial; 
+  color: white;
+}
+
+/* Makes face responsive. */
+#my-sexy-face {
+  width:40%;
+  max-width: 300px;
+  margin: 0 auto;
 }
 
 #about {
