@@ -31,6 +31,10 @@ html, body {
   padding: 0;
 }
 
+.nav {
+  text-align: right;
+}
+
 /* additional sections */
 #home {
   background: url(http://www.wallpaperup.com/uploads/wallpapers/2013/08/02/126826/57cdd9b81573a02e5c5540ac4b26ac9c.jpg) no-repeat center center fixed; 
@@ -51,7 +55,7 @@ html, body {
 
 /* Makes face responsive. */
 #my-sexy-face {
-  width:40%;
+  width:50%;
   max-width: 300px;
   margin: 0 auto;
 }
